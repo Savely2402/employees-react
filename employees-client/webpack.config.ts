@@ -14,6 +14,7 @@ export default function (env: EnvVariables) {
         entry: path.resolve(__dirname, 'src', 'app', 'appEntry.tsx'),
         build: path.resolve(__dirname, 'build'),
         html: path.resolve(__dirname, 'public', 'index.html'),
+        src: path.resolve(__dirname, 'src'),
     }
 
     const config = buildWebpackConfig({
